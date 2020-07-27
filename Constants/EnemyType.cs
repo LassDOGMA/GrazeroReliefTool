@@ -33,6 +33,7 @@
         public const string GrandOrder = "Lv100 ジ・オーダー・グランデ";
         public const string Huanglong = "Lv100 黄龍";
         public const string Qilin = "Lv100 黒麒麟";
+        // Ultimate Raids
         public const string UltimateBahamut = "Lv150 アルティメットバハムート";
         // Story Raids
         public const string RoseQueen = "Lv110 ローズクイーン";
@@ -74,11 +75,21 @@
         public const string ProtoBahamutImpossible = "Lv150 プロトバハムート";
         public const string Akasha = "Lv200 アーカーシャ";
         public const string Lucilius = "Lv150 ルシファー";
+        public const string GrandOrderImpossible = "Lv200 ジ・オーダー・グランデ";
         // Ultimate Raids
         public const string UltimateBahamutImpossible = "Lv200 アルティメットバハムート";
-        public const string LisiliusImpossible = "Lv250 ルシファー";
-        // ????
-        public const string HuanglongQilin = "黄龍・黒麒麟HL";
-        public const string AllPrimarch = "四大天司ＨＬ";
+        // Rapture Raids
+        public const string LuciliusHard = "Lv250 ルシファー";
+        public const string Beelzebub = "Lv250 ベルゼバブ";
+        // Impossible Beasts
+        public const string HuanglongAndQilin = "黄龍・黒麒麟HL";
+        public const string TheFourPrimarchs = "四大天司ＨＬ";
+        // Six Dragons
+        public const string Wilnas = "Lv200 ウィルナス";
+        public const string Wamdus = "Lv200 ワムデュス";
+        public const string Galleon = "Lv200 ガレヲン";
+        public const string Ewiyar = "Lv200 イーウィヤ";
+        public const string LuWoh = "Lv200 ル・オー";
+        public const string Fediel = "Lv200 フェディエル";
     }
 }

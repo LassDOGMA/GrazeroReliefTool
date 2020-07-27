@@ -138,15 +138,33 @@ namespace GrazeroReliefTool.Entities
         public DateTime AkashaTime { get; set; }
         public string Lucilius { get; set; }
         public DateTime LuciliusTime { get; set; }
+        public string GrandOrderImpossible { get; set; }
+        public DateTime GrandOrderImpossibleTime { get; set; }
         // Ultimate Raids
         public string UltimateBahamutImpossible { get; set; }
         public DateTime UltimateBahamutImpossibleTime { get; set; }
-        public string LisiliusImpossible { get; set; }
-        public DateTime LisiliusImpossibleTime { get; set; }
-        // ??
-        public string HuanglongQilin { get; set; }
-        public DateTime HuanglongQilinTime { get; set; }
-        public string AllPrimarch { get; set; }
-        public DateTime AllPrimarchTime { get; set; }
+        // Rapture Raids
+        public string LuciliusHard { get; set; }
+        public DateTime LuciliusHardTime { get; set; }
+        public string Beelzebub { get; set; }
+        public DateTime BeelzebubTime { get; set; }
+        // Impossible Beasts
+        public string HuanglongAndQilin { get; set; }
+        public DateTime HuanglongAndQilinTime { get; set; }
+        public string TheFourPrimarchs { get; set; }
+        public DateTime TheFourPrimarchsTime { get; set; }
+        // 六竜
+        public string Wilnas { get; set; }
+        public DateTime WilnasTime { get; set; }
+        public string Wamdus { get; set; }
+        public DateTime WamdusTime { get; set; }
+        public string Galleon { get; set; }
+        public DateTime GalleonTime { get; set; }
+        public string Ewiyar { get; set; }
+        public DateTime EwiyarTime { get; set; }
+        public string LuWoh { get; set; }
+        public DateTime LuWohTime { get; set; }
+        public string Fediel { get; set; }
+        public DateTime FedielTime { get; set; }
     }
 }

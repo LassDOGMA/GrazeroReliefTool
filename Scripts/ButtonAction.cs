@@ -120,14 +120,22 @@ namespace GrazeroReliefTool.Scripts
             multiList.Items.Add(EnemyType.LeviathanMalice);
             multiList.Items.Add(EnemyType.Phronesis);
             multiList.Items.Add(EnemyType.ProtoBahamutImpossible);
-            multiList.Items.Add(EnemyType.Lucilius);
             multiList.Items.Add(EnemyType.Akasha);
+            multiList.Items.Add(EnemyType.Lucilius);
+            multiList.Items.Add(EnemyType.GrandOrderImpossible);
             multiList.Items.Add(EnemyType.UltimateBahamutImpossible);
-            multiList.Items.Add(EnemyType.LisiliusImpossible);
+            multiList.Items.Add(EnemyType.LuciliusHard);
+            multiList.Items.Add(EnemyType.Beelzebub);
             multiList.Items.Add(EnemyType.Huanglong);
             multiList.Items.Add(EnemyType.Qilin);
-            multiList.Items.Add(EnemyType.HuanglongQilin);
-            multiList.Items.Add(EnemyType.AllPrimarch);
+            multiList.Items.Add(EnemyType.HuanglongAndQilin);
+            multiList.Items.Add(EnemyType.TheFourPrimarchs);
+            multiList.Items.Add(EnemyType.Wilnas);
+            multiList.Items.Add(EnemyType.Wamdus);
+            multiList.Items.Add(EnemyType.Galleon);
+            multiList.Items.Add(EnemyType.Ewiyar);
+            multiList.Items.Add(EnemyType.LuWoh);
+            multiList.Items.Add(EnemyType.Fediel);
         }
     }
 }

@@ -393,21 +393,53 @@ namespace GrazeroReliefTool.Program
                     EnemyEntity.Lucilius = participationId;
                     EnemyEntity.LuciliusTime = DateTime.Now;
                     break;
+                case EnemyType.GrandOrderImpossible:
+                    EnemyEntity.GrandOrderImpossible = participationId;
+                    EnemyEntity.GrandOrderImpossibleTime = DateTime.Now;
+                    break;
                 case EnemyType.UltimateBahamutImpossible:
                     EnemyEntity.UltimateBahamutImpossible = participationId;
                     EnemyEntity.UltimateBahamutImpossibleTime = DateTime.Now;
                     break;
-                case EnemyType.LisiliusImpossible:
-                    EnemyEntity.LisiliusImpossible = participationId;
-                    EnemyEntity.LisiliusImpossibleTime = DateTime.Now;
+                case EnemyType.LuciliusHard:
+                    EnemyEntity.LuciliusHard = participationId;
+                    EnemyEntity.LuciliusHardTime = DateTime.Now;
                     break;
-                case EnemyType.HuanglongQilin:
-                    EnemyEntity.HuanglongQilin = participationId;
-                    EnemyEntity.HuanglongQilinTime = DateTime.Now;
+                case EnemyType.Beelzebub:
+                    EnemyEntity.Beelzebub = participationId;
+                    EnemyEntity.BeelzebubTime = DateTime.Now;
                     break;
-                case EnemyType.AllPrimarch:
-                    EnemyEntity.AllPrimarch = participationId;
-                    EnemyEntity.AllPrimarchTime = DateTime.Now;
+                case EnemyType.HuanglongAndQilin:
+                    EnemyEntity.HuanglongAndQilin = participationId;
+                    EnemyEntity.HuanglongAndQilinTime = DateTime.Now;
+                    break;
+                case EnemyType.TheFourPrimarchs:
+                    EnemyEntity.TheFourPrimarchs = participationId;
+                    EnemyEntity.TheFourPrimarchsTime = DateTime.Now;
+                    break;
+                case EnemyType.Wilnas:
+                    EnemyEntity.Wilnas = participationId;
+                    EnemyEntity.WilnasTime = DateTime.Now;
+                    break;
+                case EnemyType.Wamdus:
+                    EnemyEntity.Wamdus = participationId;
+                    EnemyEntity.WamdusTime = DateTime.Now;
+                    break;
+                case EnemyType.Galleon:
+                    EnemyEntity.Galleon = participationId;
+                    EnemyEntity.GalleonTime = DateTime.Now;
+                    break;
+                case EnemyType.Ewiyar:
+                    EnemyEntity.Ewiyar = participationId;
+                    EnemyEntity.EwiyarTime = DateTime.Now;
+                    break;
+                case EnemyType.LuWoh:
+                    EnemyEntity.LuWoh = participationId;
+                    EnemyEntity.LuWohTime = DateTime.Now;
+                    break;
+                case EnemyType.Fediel:
+                    EnemyEntity.Fediel = participationId;
+                    EnemyEntity.FedielTime = DateTime.Now;
                     break;
             }
         }
@@ -532,14 +564,30 @@ namespace GrazeroReliefTool.Program
                     return EnemyEntity.Akasha;
                 case EnemyType.Lucilius:
                     return EnemyEntity.Lucilius;
+                case EnemyType.GrandOrderImpossible:
+                    return EnemyEntity.GrandOrderImpossible; 
                 case EnemyType.UltimateBahamutImpossible:
                     return EnemyEntity.UltimateBahamutImpossible;
-                case EnemyType.LisiliusImpossible:
-                    return EnemyEntity.LisiliusImpossible;
-                case EnemyType.HuanglongQilin:
-                    return EnemyEntity.HuanglongQilin;
-                case EnemyType.AllPrimarch:
-                    return EnemyEntity.AllPrimarch;
+                case EnemyType.LuciliusHard:
+                    return EnemyEntity.LuciliusHard;
+                case EnemyType.Beelzebub:
+                    return EnemyEntity.Beelzebub;
+                case EnemyType.HuanglongAndQilin:
+                    return EnemyEntity.HuanglongAndQilin;
+                case EnemyType.TheFourPrimarchs:
+                    return EnemyEntity.TheFourPrimarchs;
+                case EnemyType.Wilnas:
+                    return EnemyEntity.Wilnas;
+                case EnemyType.Wamdus:
+                    return EnemyEntity.Wamdus;
+                case EnemyType.Galleon:
+                    return EnemyEntity.Galleon;
+                case EnemyType.Ewiyar:
+                    return EnemyEntity.Ewiyar;
+                case EnemyType.LuWoh:
+                    return EnemyEntity.LuWoh;
+                case EnemyType.Fediel:
+                    return EnemyEntity.Fediel;
                 default:
                     return "";
             }
@@ -665,14 +713,30 @@ namespace GrazeroReliefTool.Program
                     return EnemyEntity.AkashaTime;
                 case EnemyType.Lucilius:
                     return EnemyEntity.LuciliusTime;
+                case EnemyType.GrandOrderImpossible:
+                    return EnemyEntity.GrandOrderImpossibleTime; 
                 case EnemyType.UltimateBahamutImpossible:
                     return EnemyEntity.UltimateBahamutImpossibleTime;
-                case EnemyType.LisiliusImpossible:
-                    return EnemyEntity.LisiliusImpossibleTime;
-                case EnemyType.HuanglongQilin:
-                    return EnemyEntity.HuanglongQilinTime;
-                case EnemyType.AllPrimarch:
-                    return EnemyEntity.AllPrimarchTime;
+                case EnemyType.LuciliusHard:
+                    return EnemyEntity.LuciliusHardTime;
+                case EnemyType.Beelzebub:
+                    return EnemyEntity.BeelzebubTime;
+                case EnemyType.HuanglongAndQilin:
+                    return EnemyEntity.HuanglongAndQilinTime;
+                case EnemyType.TheFourPrimarchs:
+                    return EnemyEntity.TheFourPrimarchsTime;
+                case EnemyType.Wilnas:
+                    return EnemyEntity.WilnasTime;
+                case EnemyType.Wamdus:
+                    return EnemyEntity.WamdusTime;
+                case EnemyType.Galleon:
+                    return EnemyEntity.GalleonTime;
+                case EnemyType.Ewiyar:
+                    return EnemyEntity.EwiyarTime;
+                case EnemyType.LuWoh:
+                    return EnemyEntity.LuWohTime;
+                case EnemyType.Fediel:
+                    return EnemyEntity.FedielTime;
                 default:
                     return DateTime.MaxValue;
             }
